@@ -30,7 +30,7 @@ def main():
 
 def setData2(inputFile,funcDict):
     """
-    this methos get the the file name and pars all of the data
+    thias methos get the the file name and pars all of the data
     :param inputFile: the input file to pharse
     :param funcDict:  ths data struct to work with
     :return:
