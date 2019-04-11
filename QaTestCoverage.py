@@ -20,7 +20,7 @@ def main():
 
 
     for inputFile in testsName:
-        setData1(inputFile,funcDict)
+        setData2(inputFile,funcDict)
     print(funcDict)
 
     # dump the dict to json file
@@ -28,7 +28,7 @@ def main():
         json.dump(funcDict, outfile)
 
 
-def setData1(inputFile,funcDict):
+def setData2(inputFile,funcDict):
     """
     this methos get the the file name and pars all of the data
     :param inputFile: the input file to pharse
